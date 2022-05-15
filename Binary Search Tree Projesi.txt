@@ -1,0 +1,18 @@
+[7,5,1,8,3,6,0,9,4,2] dizisinin Binary-Search-Tree aşamalarını yazınız.>
+1-	Rootumuz 7’dir.
+2-	5, 5<7 olduğu için 7’nin solunda yer alır.
+3-	1, 1<5 olduğu için 5’in solunda yer alır.
+4-	8, 8>7 olduğu için 7’nin sağında yer alır.
+5-	3, 3<5 ve 3>1 olduğu için 1’in sağında yer alır.
+6-	6, 6<7 ve 6>5 olduğu için 5’in sağında yer alır.
+7-	0, 0<1 olduğu için 1’in solunda yer alır.
+8-	9, 9>8 olduğu için 8’in sağında yer alır.
+9-	4, 4<5 ve 4>3 olduğu için 3’ün sağında yer alır.
+10-	2, 2<3  olduğu için 3’ün solundadır.
+
+                                                        7              
+                                                    5         8
+                                               1        6            9
+                                          0       3 
+
+                                                2    4
